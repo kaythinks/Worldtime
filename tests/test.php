@@ -4,4 +4,4 @@ require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Compos
 
 use Worldtime\Worldtime;
 
-echo Worldtime::getTime('Lagos');
+echo Worldtime::getTime('New York');
