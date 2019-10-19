@@ -28,7 +28,7 @@ To install this package follow the steps below
 
 	require_once 'vendor/autoload.php';
 
-	use Worldtime\Worldtime;
+	use Kaythinks\Worldtime\Worldtime;
 
 	echo Worldtime::getTime('Lagos');
 

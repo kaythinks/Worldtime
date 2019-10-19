@@ -2,6 +2,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
-use Worldtime\Worldtime;
+use Kaythinks\Worldtime\Worldtime;
 
-echo Worldtime::getTime('New York');
+echo Worldtime::getTime('Lagos');

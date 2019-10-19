@@ -1,6 +1,6 @@
 <?php
 
-namespace Worldtime;
+namespace Kaythinks\Worldtime;
 
 class Cities{
 
@@ -507,6 +507,7 @@ class Cities{
 		$response = Cities::compareCity($input);
 
 		if (!$response) {
+			
 			$resp = "<b>".$input."</b> is not a World city or it's non-existent !!!<br>";
 			print_r($resp);
 			die();

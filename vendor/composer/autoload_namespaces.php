@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Worldtime' => array($baseDir . '/src'),
+    'Kaythinks\\Worldtime' => array($baseDir . '/src'),
 );

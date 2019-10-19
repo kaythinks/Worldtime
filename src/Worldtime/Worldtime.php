@@ -1,10 +1,10 @@
 <?php
 
-namespace Worldtime;
+namespace Kaythinks\Worldtime;
 
 require_once __DIR__ . './../../vendor/autoload.php';
 
-use Worldtime\Cities;
+use Kaythinks\Worldtime\Cities;
 
 class Worldtime extends Cities{
 
